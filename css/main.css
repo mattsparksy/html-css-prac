@@ -173,4 +173,52 @@ nav li a:hover {
 nav ul.secondary-nav {
   list-style: none;
 }
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+  }
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px auto;
+        grid-template-columns: 180px auto;
+  }
+  .navbar nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .navbar nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar nav a {
+    color: white;
+    font-size: 2em;
+    padding: .1em .75em;
+  }
+  .navbar nav ul.primary-nav {
+    margin: 0;
+  }
+  .navbar nav ul.secondary-nav {
+    margin-top: 0.5em;
+  }
+  .navbar nav li.current a {
+    font-weight: bold;
+  }
+  .navbar nav .Monkey {
+    width: 100%;
+    height: auto;
+  }
+}
 /*# sourceMappingURL=main.css.map */
