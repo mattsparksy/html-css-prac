@@ -140,7 +140,7 @@ section{
     }
 }
 
-nav.menu-btn{
+nav.menu-btn {
     display: block;
 } 
 
@@ -154,6 +154,11 @@ nav{
     height: 100vh; 
     padding: 1em; 
 
+    .mobile-menu-exit {
+        cursor: pointer; 
+        float: right;
+        
+    }
 
 
 

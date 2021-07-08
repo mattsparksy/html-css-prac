@@ -145,6 +145,11 @@ nav {
   padding: 1em;
 }
 
+nav .mobile-menu-exit {
+  cursor: pointer;
+  float: right;
+}
+
 nav ul.primary-nav {
   margin-top: 5em;
   list-style: none;
