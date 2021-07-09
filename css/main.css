@@ -222,7 +222,20 @@ nav ul.secondary-nav {
   }
 }
 
-.roulette {
+.roulette .Roulette-Wheel-Img {
+  border: 5px solid #0084ff;
   text-align: center;
+}
+
+.roulette-list {
+  border: 5px solid #0084ff;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.fruit-list {
+  border: 5px solid #0084ff;
+  padding: 1em;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
