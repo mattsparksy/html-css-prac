@@ -235,16 +235,23 @@ nav ul.secondary-nav {
 }
 
 .download-roulette {
+  text-align: center;
+}
+
+.download-roulette a {
   margin-top: .01em;
   font-size: 3em;
   background: #0084ff;
   text-decoration: none;
-  padding: .6em 1.3em;
-  font-size: 1em;
+  padding: 1em 40em;
+  font-size: 1.1em;
   color: white;
-  border-radius: 3em;
+  border-radius: 2em;
   font-weight: bold;
-  text-align: center;
   margin-bottom: 1em;
+}
+
+.download-roulette a:hover {
+  background-color: royalblue;
 }
 /*# sourceMappingURL=main.css.map */
